@@ -1,0 +1,2 @@
+kazakazakaza,assets/deadImage.jpg
+this is not the old,assets/dealImage.jpg

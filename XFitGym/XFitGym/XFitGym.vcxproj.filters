@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="XFitGym.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtUic Include="XFitGym.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <ClCompile Include="XFitGym.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dashboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Homepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="userProfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receptionist.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Notifications.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Feedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Subscription.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrainingSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Padel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramClock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_homepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_dashboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_members.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_staff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_tournaments.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager_feedback.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Staff_profile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Coach_homepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receptionist_homepage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receptionist_members.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receptionist_classes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Receptionist_news.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="login.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="dashboard.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="homepage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="userProfile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="notifications.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="feedback.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="classes.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="padel.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="manager_homepage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="manager_dashboard.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="manager_members.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="manager_staff.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="manager_tournaments.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="manager_feedback.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="renewPage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="staff_profile.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="coach_homepage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="coach_classes.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="receptionist_homepage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="receptionist_members.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="receptionist_classes.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="receptionist_news.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="addPage.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Login.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Dashboard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Homepage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="userProfile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Notifications.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Feedback.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Classes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Padel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Manager_homepage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Manager_dashboard.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Manager_members.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Manager_staff.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Manager_tournaments.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Manager_feedback.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Staff_profile.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Coach_homepage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Receptionist_homepage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Receptionist_members.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Receptionist_classes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="Receptionist_news.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="XFitGym.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CustomerData.txt" />
+    <Text Include="feedbacks.txt" />
+    <Text Include="sessions.txt" />
+    <Text Include="News.txt" />
+    <Text Include="Notifications.txt" />
+    <Text Include="staff.txt" />
+    <Text Include="tournament.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Staff.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Coach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Receptionist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Subscription.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainingSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CourtWidgetData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
